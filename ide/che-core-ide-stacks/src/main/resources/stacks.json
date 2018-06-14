@@ -176,7 +176,8 @@
             },
             "db": {
               "installers": [
-                "org.eclipse.che.terminal"
+                "org.eclipse.che.terminal",
+                "org.eclipse.che.exec"
               ],
               "servers": {
                 "mysql" : {
@@ -1127,11 +1128,11 @@
                 "org.eclipse.che.exec", "org.eclipse.che.terminal", "org.eclipse.che.ws-agent"
               ],
               "servers": {
-                "8080/tcp" : {
+                "tomcat8" : {
                   "port" : "8080",
                   "protocol" : "http"
                 },
-                "8000/tcp" : {
+                "tomcat8-debug" : {
                   "port" : "8000",
                   "protocol" : "http"
                 }
@@ -1246,9 +1247,6 @@
     "description": "Eclipse Vert.x Stack on CentOS with OpenJDK and Maven",
     "scope": "advanced",
     "tags": [
-      "Java",
-      "JDK",
-      "Maven",
       "Vert.x"
     ],
     "components": [
@@ -1341,9 +1339,6 @@
     "description": "Spring Boot Stack on CentOS.",
     "scope": "advanced",
     "tags": [
-      "Java",
-      "JDK",
-      "Maven",
       "Spring Boot"
     ],
     "components": [
@@ -1444,11 +1439,7 @@
     "description": "Eclipse WildFly Swarm Stack on CentOS.",
     "scope": "advanced",
     "tags": [
-      "Java",
-      "JDK",
-      "Maven",
-      "WildFly Swarm",
-      "CentOS"
+      "WildFly Swarm"
     ],
     "components": [
       {
