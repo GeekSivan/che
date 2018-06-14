@@ -628,7 +628,7 @@
       {
         "name": "run",
         "type": "custom",
-        "commandLine": "cd ${current.project.path} \ngrunt serve",
+        "commandLine": "cd ${current.project.path} \ngrunt serve --force",
         "attributes": {
           "previewUrl": "${server.9000/tcp}",
           "goal": "Run"
