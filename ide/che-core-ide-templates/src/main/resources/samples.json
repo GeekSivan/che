@@ -812,7 +812,7 @@
         "type": "custom",
         "commandLine": "cd ${current.project.path} \ndotnet run",
         "attributes": {
-          "previewUrl": "${server.dot.net.server}",
+          "previewUrl": "${server.dotnet}",
           "goal": "Run"
         }
       }

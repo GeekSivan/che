@@ -630,7 +630,7 @@
                 "org.eclipse.che.exec", "org.eclipse.che.terminal", "org.eclipse.che.ws-agent", "org.eclipse.che.ls.csharp"
               ],
               "servers": {
-                "dot.net.server" : {
+                "dotnet" : {
                   "port" : "5000",
                   "protocol" : "http"
                 }
